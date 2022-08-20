@@ -11,7 +11,7 @@ html{
 .main-container{
     width: 100vw;
     height:100vh;
-    background-image: url(image/school2.jpeg);
+    background-image: url('image/school2.jpeg');
     overflow:hidden;
     
     
