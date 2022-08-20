@@ -162,6 +162,7 @@ border-right: 2px solid greenyellow;
     width: 100vw;
     height: auto;
     display: block;
+    overflow:hidden;
 
   }
  
@@ -181,6 +182,7 @@ border-right: 2px solid greenyellow;
     .btn{
       
     height: auto;
+      overflow:hidden;
    
     }
     .btn button{
@@ -195,6 +197,7 @@ border-right: 2px solid greenyellow;
       display: block;
       padding:1rem;
       background-color: #57606f;
+      overflow:hidden;
   }
   footer .contact{
       width: 100vw;
