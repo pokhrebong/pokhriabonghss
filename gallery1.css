@@ -151,6 +151,7 @@ border-right: 2px solid greenyellow;
     height: auto;
     display: grid;
     padding:2rem;
+    overflow:hidden;
   }
   .swiper{
     width: 85vw;
@@ -171,6 +172,7 @@ border-right: 2px solid greenyellow;
     display: block;
     padding:1rem;
     background-color: #57606f;
+      overflow:hidden;
 }
 footer .contact{
     width: 100vw;
