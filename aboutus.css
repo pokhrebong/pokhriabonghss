@@ -178,6 +178,7 @@
     height: auto;
     background: none;
     position: relative;
+     overflow-x:hidden;
 
    }
    .head{
