@@ -11,7 +11,7 @@ html{
 .main-container{
     width: 100vw;
     height:100vh;
-     background-color:linear-gradient(red,blue,green);
+    background-image: url(image/school2.jpeg);
     overflow:hidden;
     
     
