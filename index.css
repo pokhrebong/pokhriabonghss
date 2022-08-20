@@ -397,7 +397,7 @@ footer{
         box-sizing:border-box;
     }
     body{
-        overflow:hidden;
+        height:auto;
         box-sizing:border-box;
 
     }
