@@ -391,7 +391,7 @@ footer{
     .main-container{
         height: auto;
         overflow:hidden;
-         background-image: conic-gradient(#1e90ff,#2ed573,#a55eea);
+         background-image: linear-gradient(#1e90ff,#2ed573,#a55eea);
 
         
     }
