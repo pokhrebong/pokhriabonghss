@@ -186,7 +186,8 @@
        height: auto;
         position: relative;
         background-image: none; 
-        background-color:#3B3B98;      
+        background-color:#3B3B98;
+         overflow:hidden;
 
        
        
