@@ -602,152 +602,120 @@ margin-top: 2rem;
 }
 @media(max-width:600px){
     main img{
-        width: 8rem;
-        height:8rem;
+        width: 10rem;
+        height: 10rem;
     }
-    .container ul li a{
-        font-size: 1.2rem;
-    }
-    .container.responsive ul li ul{
-        background-color: #1842db;
-    }
-    .container.responsive ul li ul li a{
-        font-size: 1.2rem;
-
-    }
-    
     .content h1{
-        font-size: 1.5rem;
+        font-size: 2.2rem;
+       
+    
     }
     .content h2{
-        font-size: 1.7rem;
-        margin-top: 1rem;
-    
+        font-size: 2rem;
+      
     
     }
     .content h3{
-        margin-top: 1rem;
-        font-size: 1.4rem;
+        font-size: 2rem;
     
     }
     .content h4{
-        font-size: 1rem;
-        margin-top: 1rem;
-        letter-spacing: .2rem;
+        font-size: 2rem;
+      
     
     
     
     }
     .content button a{
-        font-size: 1rem;
+    font-size: 1.5rem;
     }
     .section1 h1{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .section1 p{
-        font-size:1.5rem;
-    }
-    .section2 h1{
-        font-size:1.5rem;
-    }
-    .section2 p{
-        font-size:1.5rem;
-    }
-    .section3 h1{
-        font-size:1.5rem;
-    }
-    .section3 p{
-        font-size:1.5rem;
-    }
-    footer .contact{
-        font-size: 1.6rem;
-    }
-    footer .helpdesk{
-        font-size: 1.6rem;
-
-    }
-    footer .icon a{
-        width: 4rem;
-        height: 4rem;
-        position: relative;
-    }
-    footer .icon i{
-        font-size:1.5rem;
-        position: absolute;
-        top:-10%;
-        left:-10%;
-    }
-}
-@media (min-width:481px) and (max-width:768px){
-    main img{
-        width: 7.5rem;
-        height:7.5rem;
-    }
-    .container ul li a{
-        font-size: 1.5rem;
-    }
-    .container.responsive ul li ul li a{
-        font-size: 1.5rem;
-    }
-    .content h1{
-        font-size: 2rem;
-    }
-    .content h2{
-        font-size: 2rem;
-        margin-top: 1rem;
-    
-    
-    }
-    .content h3{
-        margin-top: 1rem;
-        font-size: 2rem;
-    
-    }
-    .content h4{
         font-size: 1.8rem;
-        margin-top: 1rem;
-    
-    
-    
-    }
-    .content button a{
-        font-size: 1.5rem;
-    }
-    .section1 h1{
-        font-size: 2rem;
-    }
-    .section1 p{
-        font-size:2rem;
     }
     .section2 h1{
-        font-size:2rem;
+        font-size: 2rem;
     }
     .section2 p{
-        font-size:2rem;
+        font-size: 1.8rem;
     }
     .section3 h1{
-        font-size:2rem;
+        font-size: 2rem;
     }
     .section3 p{
-        font-size:2rem;
+        font-size: 1.8rem;
     }
-    footer .contact{
-        font-size: 1.5rem;
+    .contact{
+       
+        font-size:1.5rem;
     }
-    footer .helpdesk{
-        font-size: 1.5rem;
-
+    .helpdesk{
+        
+        font-size:1.5rem;
+    
+    
     }
-    footer .icon a{
+    .icon a{
         width: 5rem;
         height: 5rem;
-        position: relative;
     }
-    footer .icon i{
-        font-size:1.8rem;
-        position: absolute;
-        top:1%;
-        left:0%;
+    .icon i{
+        margin: 1.5rem .2rem;
     }
+   
 
-} 
+}
+@media(max-width:480px){
+    .content h1{
+        font-size: 2rem;
+       
+    
+    }
+    .content h2{
+        font-size: 1.5rem;
+      
+    
+    }
+    .content h3{
+        font-size: 1.5rem;
+    
+    }
+    .content h4{
+        font-size: 1.5rem;
+      
+    
+    
+    
+    }
+    .content button a{
+        font-size: 1rem;
+        }
+        .section1 h1{
+            font-size: 1.5rem;
+        }
+        .section1 p{
+            font-size: 1.6rem;
+        }
+        .section2 h1{
+            font-size: 1rem;
+        }
+        .section2 p{
+            font-size: 1.6rem;
+        }
+        .section3 h1{
+            font-size: 1.5rem;
+        }
+        .section3 p{
+            font-size: 1.6rem;
+        }
+        .icon a{
+            width: 4rem;
+            height: 4rem;
+        }
+        .icon i{
+            margin: 1rem .1rem;
+        }
+}
+
