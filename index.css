@@ -486,7 +486,10 @@ main{
     margin-top: 2rem;
     text-align: center;
     margin-left: 0rem;
-    background-color:#48dbfb;
+    background-image: url('image/school2.jpeg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
     padding: 3rem;
 }
 .content h1{
