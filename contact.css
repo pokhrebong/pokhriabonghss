@@ -228,6 +228,7 @@ footer{
     }
     .input_field label{
         font-size: 20px;
+        margin-left:0px;
 
     }
     .input_field input{
