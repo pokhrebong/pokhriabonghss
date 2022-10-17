@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    <script src="https://kit.fontawesome.com/526798dda7.js" crossorigin="anonymous"></script>
+
+
+    <title> contact</title>
+</head>
+<body>
+    <div class="main">
+        <div class="centerdiv">
+
+       <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3555.445261523709!2d88.62353241499945!3d26.984461283096792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e41bb41d5e6f57%3A0xd16773d57db53905!2sPOKHRIABONG%20HIGH%20SCHOOL!5e0!3m2!1sen!2sil!4v1665943458887!5m2!1sen!2sil" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+       </div> 
+       <div class="contacts">
+        <form id="form">
+            <h1>Contact</h1>
+            <div class="input_field">
+              <label> Name</label>
+              <input type="text" id="name" autocomplete="off" required>  
+            </div>
+            <div class="input_field">
+                <label>Email</label>
+                <input type="email" id="email" autocomplete="off" required>  
+              </div>
+              <div class="input_field">
+                <label>Phone</label>
+                <input type="number" id="num" autocomplete="off" required>  
+              </div>
+              <div class="input_field">
+                <label> Messege</label>
+                 <textarea rows="6" id="area">
+                </textarea>  
+              </div>
+             
+                <input type="submit" id="submit" value="submit">
+              
+        </form>
+       </div> 
+    </div>
+   
+
+    </div>
+    <footer>
+        <div class="contact">
+            <h3>Details</h3>
+            <p>PH -+918972395072</p>
+            <P>Email-phhs@gmail.com</P>
+    
+        </div>
+        
+        <div class="helpdesk">
+            <h3>Help-Desk</h3>
+            <p>Contact With</p>
+            <p>Official Number</p>
+    
+        </div>
+        <div class="icon">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a><br>
+            <a href="https://web.whatsap" target="_blank"><i class="fa fa-whatsapp"></i></a><br>
+            <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter"></i></a><br>
+            <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a><br>
+            <a href="https://www.google.com/" target="_blank"><i class="fa-brands fa-google-plus"></i></a><br>
+    
+    
+    
+        </div>
+    
+    </footer>
+   
+    <script>
+        document.getElementById("name").addEventListener("focus",function(){
+            this.style.backgroundColor="cyan";
+        })
+        document.getElementById("email").addEventListener("focus",function(){
+            this.style.backgroundColor="cyan";
+        })
+        document.getElementById("num").addEventListener("focus",function(){
+            this.style.backgroundColor="cyan";
+        })
+        document.getElementById("area").addEventListener("focus",function(){
+            this.style.backgroundColor="cyan";
+        })
+
+
+        document.getElementById("name").addEventListener("blur",function(){
+            this.style.backgroundColor="white";
+        })
+        document.getElementById("email").addEventListener("blur",function(){
+            this.style.backgroundColor="white";
+        })
+        document.getElementById("num").addEventListener("blur",function(){
+            this.style.backgroundColor="white";
+        })
+        document.getElementById("area").addEventListener("blur",function(){
+            this.style.backgroundColor="white";
+        })
+
+
+        document.getElementById("form").addEventListener("submit",function(){
+            confirm(" Do you want to send the Messege?");
+            var a = document.getElementById("name").value;
+            alert(a + " " + "Messege has been Sent to the official");
+        })
+
+
+    </script>
+</body>
+</html>
