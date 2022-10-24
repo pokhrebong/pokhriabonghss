@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/526798dda7.js" crossorigin="anonymous"></script>
+
+    <title>SignUp page</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .main_container{
+            width:100vw;
+            height: 88vh;
+            background-image:url(images/blue.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+        .container{
+            width:500px;
+            height: 500px;
+            padding-left: 30px;
+            background-color:rgba(0, 0, 0,0.7);            
+            display: flex;
+            justify-content: center;
+            position: relative;
+            
+
+        }
+       .container h2{
+        position:absolute;
+        top:-15px;
+        left:40%;
+        padding:10px 30px;
+        background-color: red;
+        border-radius: 30px;
+
+        }
+        form{
+            width: 80%;
+            height: 60%;
+            margin-top: 50px;
+            margin-left:10px;
+            
+           
+        }
+        
+       
+      
+       .input_filed{
+        width:100%;
+        padding:7px;
+       }
+
+       .input_filed label{
+        width: 40%;
+        text-transform: uppercase;
+        font-size: 20px;
+        color:#ffffff;
+       }
+       .input_filed input{
+        width:70%;
+        display: block;
+        padding:5px;
+        border:none;
+        outline:none;
+       }
+       .btn{
+        margin-top: 20px;
+       
+       }
+       .btn input{
+        background-color:green;
+        padding:10px 30px;
+        border:none;
+       }
+
+       footer{
+    width: 100vw;
+    height: 12vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+    
+
+}
+.contact{
+    width:33.3vw;
+    color:white;
+    border-right: 2px solid greenyellow;
+}
+.helpdesk{
+    width:33.3vw;
+    color:white;
+    border-right: 2px solid greenyellow;
+
+}
+.icon{
+    width:33.3vw;
+    
+    color:white;
+    border-right: 2px solid greenyellow;
+    display:flex;
+    justify-content: center;
+    
+
+}
+.icon a{
+    position:relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    text-align:center;
+    margin: 0px 5px;
+    transition: .6s;
+    box-shadow: 0px 5px 4px rgba(255,255,255,.5);
+    
+    
+}
+.icon a:hover{
+    transform:translate(0,-10px);
+}
+.icon a .fa:hover{
+    color:black;
+}
+
+.icon i{
+    margin:20px 20px;
+    font-size: 22px;
+    background-color: white;
+    
+    
+}
+
+.icon .fa-facebook{
+    color:blue;
+    
+}
+
+.icon .fa-whatsapp{
+    color:green;
+}
+
+.icon .fa-twitter{
+    color:aqua;
+}
+
+.icon .fa-youtube{
+    color:red;
+}
+.icon .fa-google-plus{
+    color:red;
+}
+       @media(max-width:990px){
+        .main_container{
+           height: auto;
+           overflow-x: hidden;
+           
+            
+       }
+       .container{
+            width:700px;
+            height: auto;
+            margin-top: 30px;
+           padding-bottom: 40px;
+            
+
+        }
+        .container h2{
+       font-size: 20px;
+       text-transform: uppercase;
+
+        }
+        form{
+            width: 70%;
+            height: auto;
+           
+            
+           
+        }
+        .input_filed label{
+            font-size: 20px;
+        }
+        .input_filed input{
+            width:100%;
+        }
+        .btn{
+            margin-left: 5px;
+        }
+        @media(min-width:668px) and (max-width:750px){
+            .container{
+                width:550px;
+            }
+        }
+        @media(min-width:450px) and (max-width:570px){
+            .container{
+                width:300px;
+            }
+        }
+        footer{
+        
+        height: auto;
+        background-color: black;
+       display:block;
+       margin-top: 10px;
+       padding-bottom: 10px;
+       overflow-x: hidden;
+    
+        
+    
+    }
+    .contact{
+        width: 100%;
+        color:white;
+        border:none;
+        text-align: center;
+    }
+    .helpdesk{
+        width: 100%;
+        border:none;
+        text-align: center;
+    
+    }
+    .icon{
+        width:100%;
+        text-align: center;
+        
+    }
+    @media(max-width:668px){
+        .container{
+            width:550px;
+        }
+       .container h2{
+        font-size: 17px;
+        padding:8px 20px;
+       }
+       .input_filed{
+        width:100%;
+       }
+       .input_filed label{
+        font-size: 18px;
+       }
+       .input_filed input{
+        width:100%;
+        padding:7px;
+       }
+       .btn{
+        margin-left: 5px;
+        
+       }
+       .btn input{
+        padding:8px 30px;
+        color:white;
+        font-size: 18px;
+        text-transform: uppercase;
+       }
+       .icon a{
+        width:55px;
+        height: 55px;
+       }
+       .icon i{
+        margin-left: 17px;
+       }
+    }
+    @media(min-width:450px) and (max-width:600px){
+        .container{
+            width:500px;
+        }
+    }
+    @media(max-width:450px){
+        .container{
+            width:350px;
+        }
+        .container h2{
+            font-size: 15px;
+            left:34%;
+            padding:10px 20px;
+        }
+        form{
+            margin-left: 0px;
+        }
+        .input_filed{
+            margin-right: 25px;
+
+        }
+        .input_filed label{
+            font-size: 15px;
+        }
+        .input_filed input{
+            width:100%;
+        }
+        .btn{
+            margin-left: 5px;
+        }
+        .btn input{
+            padding:5px 20px;
+            color:white;
+            text-transform: uppercase;
+            margin-top: -10px;
+        }
+        .contact{
+            font-size: 15px;
+        }
+        .helpdesk{
+            font-size: 15px;
+        }
+        .icon a{
+            width:50px;
+            height: 50px;
+        }
+        .icon i{
+            margin-left: 14px;
+            margin-top: 15px;
+        }
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="main_container">
+        <div class="container">
+            <h2>SignUp</h2>
+
+            <form>
+
+                <div class="input_filed">
+                    <label>firstname</label>
+                    <input type="text" id="fname" autocomplete="off">
+                </div>
+                <div class="input_filed">
+                    <label>secondname</label>
+                    <input type="text" id="sname" autocomplete="off">
+                </div>
+                <div class="input_filed">
+                    <label>email</label>
+                    <input type="email" id="email" autocomplete="off">
+                </div>
+                <div class="input_filed">
+                    <label>phone</label>
+                    <input type="number" id="phone" autocomplete="off">
+                </div>
+                <div class="input_filed">
+                    <label>password</label>
+                    <input type="password" id="password" autocomplete="off">
+                </div>
+                <div class="input_filed">
+                    <label>Confirm Password</label>
+                    <input type="password" id="conpass" autocomplete="off">
+                </div>
+                <div class="btn">
+            <input type="submit" value="submit" id="submit">
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <footer>
+                    <div class="contact">
+                        <h3>Details</h3>
+                        <p>PH -+918972395072</p>
+                        <P>Email-phhs@gmail.com</P>
+                
+                    </div>
+                    
+                    <div class="helpdesk">
+                        <h3>Help-Desk</h3>
+                        <p>Contact With</p>
+                        <p>Official Number</p>
+                
+                    </div>
+                    <div class="icon">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a><br>
+                        <a href="https://web.whatsap" target="_blank"><i class="fa fa-whatsapp"></i></a><br>
+                        <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter"></i></a><br>
+                        <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a><br>
+                        <a href="https://www.google.com/" target="_blank"><i class="fa-brands fa-google-plus"></i></a><br>
+                
+                
+                
+                    </div>
+                
+                </footer>
+                
+</body>
+</html>
